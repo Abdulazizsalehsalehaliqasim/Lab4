@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lab4</title>
+        <style>body{background-color: rgb(159, 156, 152);}</style>
+    </head>
+    <body>
+        <form action=" bassam.html" method="post">
+            <div> 
+                <label for=" name">User name</label>
+                <input type="text" placeholder="user names" name="name" value="">
+            </div>
+            <br>
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="password" required placeholder="password">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="name" required placeholder="write  your email" autofocus>
+            </div>
+            <br>
+            <div>
+                <label for="">Birethdate</label>
+                <input type="date" value="">
+            </div>
+            <hr>
+            <div>
+                <label for="">color</label>
+                <input type="color" name="color">
+                <details>
+                    <summary>choses</summary>
+                    <a href="">about</a> <br>
+                    <a href="">content</a>
+                </details>
+            </div>
+            <br>
+            <div>
+                <label for="">contury</label>
+                <select name="name" id="id">
+                    <option value="">YEMEN</option>
+                    <option value="">US</option>
+                    <option value="">KS</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">number</label>
+                <input type="number" name="number" min="0" max="100" step="10">
+            </div>
+            <br>
+           <!-- <div>
+                <label for="">Range</label>
+                <input type="range" name="range" nim="0" max="30" step="5">
+            </div>-->
+            <hr>
+            <div>
+                <p>choses system opritoer you can use:</p>
+                <input id="wen" type="checkbox" name="os" value="windows" checked>
+                <label for="wen">windows</label>
+            </div>
+            <div>
+                <input id="mac" type="checkbox" name="os" value="mac">
+                <label for="mac">mac</label>
+            </div>
+            <div>
+                <input id="lin" type="checkbox" name="os" value="linux">
+                <label for="lin">linux</label>
+            </div>
+            <hr>
+            <p>programming langauge you can use</p>
+            <input list="programming langauge" name="pro">
+            <datalist id="programming langauge">
+                <label for="">programming langauge</label>
+                <option value="python">
+                <option value="c#">
+                <option value="c++">
+                <option value="js">
+                <option value="php">
+                <option value="c">
+            </datalist>
+            <hr>
+            <input type="submit" value="save">
+            <input type="reset">
+        </form>
+    </body>
+</html>
